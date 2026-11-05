@@ -1,9 +1,9 @@
 [package]
-name = "xapp_python"
+name = "sigmaos_xapp_python"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-xapp-python component"
-license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-xapp-python"
+description = "Python bindings for the SigmaOS X-App foundation library and desktop services"
 
-[dependencies]
+[lib]
+name = "sigmaos_xapp_python"
+path = "src/lib.rs"

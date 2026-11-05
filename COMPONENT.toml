@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-xapp-python"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "Python bindings for the SigmaOS X-App foundation library and desktop services"
+upstream = ["https://github.com/linuxmint/python3-xapp"]
+
+[contract]
+provides = ["xapp-python-bindings", "desktop-service-python-api", "xapp-module"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
