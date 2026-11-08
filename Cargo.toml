@@ -2,7 +2,8 @@
 name = "sigmaos_xapp_python"
 version = "0.1.0"
 edition = "2021"
-description = "Python bindings for the SigmaOS X-App foundation library and desktop services"
+license = "MIT"
+description = "SigmaOS xapp-python component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_xapp_python"
